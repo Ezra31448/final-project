@@ -1,0 +1,118 @@
+.hr__addAct {
+  width: 500px;
+  padding: 0.5rem 2rem;
+  position: fixed;
+  top: 55%;
+  right: -150%;
+  transform: translate(50%, -50%);
+  background-color: black;
+  border: 1px solid white;
+  transition: all 1.618s ease;
+}
+
+.hr__addAct.action {
+  right: 50%;
+  transition: all 0.618s ease;
+}
+
+/* ------- input section ------ */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+label {
+  display: block;
+  text-align: center;
+  margin: 0.3rem;
+  cursor: pointer;
+}
+
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-family: inherit;
+  outline: none;
+  border: none;
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+  background-color: black;
+  color: white;
+  resize: none;
+}
+
+input[type="text"] {
+  width: 100%;
+  display: block;
+  margin: 0.2rem auto;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-family: inherit;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: black;
+  color: white;
+}
+
+select {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-family: inherit;
+  outline: none;
+  border: 1px solid white;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+input[type="number"] {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-family: inherit;
+  outline: none;
+  border: 1px solid white;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+#hr__inputDate {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-family: inherit;
+  outline: none;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.hr__submit {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: 1px solid white;
+  color: white;
+  font-size: 1.5rem;
+  font-family: inherit;
+  font-weight: 700;
+  background-color: black;
+  cursor: pointer;
+  box-shadow: 4px 4px grey;
+  transition: all 0.2s ease-in-out;
+}
+
+.hr__submit:active {
+  box-shadow: none;
+}
